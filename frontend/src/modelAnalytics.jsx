@@ -18,7 +18,7 @@ export default function ModelAnalytics() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/metrics")
+    fetch("https://studentiq-api.onrender.com/metrics")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Unable to load model metrics");
