@@ -1,0 +1,30 @@
+STUDENT PERFORMANCE EDA SUMMARY
+===================================
+
+Dataset shape: (395, 34)
+Missing values: 0
+At-risk percentage: 32.91%
+
+Final grade statistics:
+count    395.000000
+mean      10.415190
+std        4.581443
+min        0.000000
+25%        8.000000
+50%       11.000000
+75%       14.000000
+max       20.000000
+
+Average grade by study time:
+studytime
+1    10.047619
+2    10.171717
+3    11.400000
+4    11.259259
+
+Average grade by past failures:
+failures
+0    11.253205
+1     8.120000
+2     6.235294
+3     5.687500

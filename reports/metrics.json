@@ -1,0 +1,42 @@
+
+{
+    "target": "at_risk = 1 if G3 < 10, otherwise 0",
+    "excluded_features": [
+        "G1",
+        "G2",
+        "G3"
+    ],
+    "best_model_by_cv_f1": "Logistic Regression",
+    "best_cv_f1": 0.466630052243863,
+    "test_size": 0.2,
+    "random_state": 42,
+    "models": {
+        "Dummy Classifier": {
+            "cv_f1_mean": 0.0,
+            "cv_f1_std": 0.0,
+            "accuracy": 0.6708860759493671,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "roc_auc": 0.5
+        },
+        "Logistic Regression": {
+            "cv_f1_mean": 0.466630052243863,
+            "cv_f1_std": 0.06278805920688776,
+            "accuracy": 0.6962025316455697,
+            "precision": 0.5294117647058824,
+            "recall": 0.6923076923076923,
+            "f1": 0.6,
+            "roc_auc": 0.7271407837445574
+        },
+        "Random Forest": {
+            "cv_f1_mean": 0.43471783835485417,
+            "cv_f1_std": 0.0825526296721161,
+            "accuracy": 0.6835443037974683,
+            "precision": 0.52,
+            "recall": 0.5,
+            "f1": 0.5098039215686274,
+            "roc_auc": 0.7155297532656023
+        }
+    }
+}
