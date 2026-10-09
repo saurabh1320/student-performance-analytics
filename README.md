@@ -9,6 +9,12 @@ The project combines Exploratory Data Analysis (EDA), Machine Learning, a REST A
 
 The system is designed as an educational prototype to support academic analysis. Predictions should not be used as the sole basis for decisions about students.
 
+
+## Dashboard Preview
+
+![Student Performance Analytics Dashboard](dashboard-preview.png)
+
+
 ## Tech Stack
 
 <p align="center">
